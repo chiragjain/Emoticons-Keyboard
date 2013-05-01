@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/emoticons_button"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_weight="0.15"
+        android:contentDescription="@string/button_description"
+        android:src="@drawable/ic_smiley" />
+
+    <EditText
+        android:id="@+id/chat_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"        
+        android:layout_weight="0.85"
+        android:hint="@string/chat_hint"
+        android:inputType="textMultiLine|textNoSuggestions" />
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:padding="4dp"
+        android:text="@string/post" />
+
+</LinearLayout>
