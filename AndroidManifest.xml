@@ -18,17 +18,10 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <provider
-            android:name="com.learn.testdifferentkeyboard.MyContentProvider"
-            android:authorities="com.test.uri"
-            android:enabled="true"
-            android:exported="true" >
-        </provider>
     </application>
 
 </manifest>
