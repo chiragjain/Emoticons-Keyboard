@@ -20,6 +20,7 @@ public final class R {
     }
     public static final class id {
         public static final int back=0x7f080007;
+        public static final int btn=0x7f08000c;
         public static final int chat_content=0x7f08000a;
         public static final int chat_list=0x7f080001;
         public static final int emoticons_button=0x7f080009;
@@ -27,10 +28,12 @@ public final class R {
         public static final int emoticons_pager=0x7f080008;
         public static final int footer_for_emoticons=0x7f080003;
         public static final int footer_layout=0x7f080002;
+        public static final int ib=0x7f08000d;
+        public static final int ibutton=0x7f08000e;
         public static final int item=0x7f080006;
         public static final int item_text=0x7f080004;
         public static final int list_parent=0x7f080000;
-        public static final int menu_settings=0x7f08000c;
+        public static final int menu_settings=0x7f08000f;
         public static final int post_button=0x7f08000b;
     }
     public static final class layout {
@@ -40,6 +43,7 @@ public final class R {
         public static final int emoticons_item=0x7f030003;
         public static final int emoticons_popup=0x7f030004;
         public static final int footer=0x7f030005;
+        public static final int text_layout=0x7f030006;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;
