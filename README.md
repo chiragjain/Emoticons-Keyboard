@@ -1,6 +1,8 @@
 Emoticons-Keyboard
 ==================
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Emoticons--Keyboard-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1005)
+
 A custom keyboard (dialog) for emoticons for android chatting application.
 
 *It uses :*
